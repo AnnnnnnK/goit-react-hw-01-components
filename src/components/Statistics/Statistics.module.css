@@ -1,13 +1,23 @@
 .statistics{
-
+display: flex;
+flex-direction: column;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+margin-bottom: 20px;
 }
 
 .title{
-
+    color: #19004d;
+margin-bottom: 20px;
 }
 
-.statList{}
-.item{}
+.statList{
+    display: flex;
+}
+.item{
+    padding: 15px;
+}
 .label{
 
 }

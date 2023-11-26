@@ -1,1 +1,23 @@
-.transactionHistory{}
+.transactionHistory{
+    margin-left: auto;
+        margin-right: auto;
+}
+
+th{
+    border: 1px solid #19004d;
+    color: #19004d;
+    padding: 10px 20px;
+    background-color: #bb99ff;
+   
+}
+td {
+    padding: 10px 20px;
+    border-radius: 4px;
+    /* margin: 10px; */
+border: 1px solid #19004d;
+}
+
+
+tr:nth-child(2n){
+    background-color: #ddccff;
+}
