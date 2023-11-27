@@ -9,10 +9,9 @@ margin-left: auto;
 }
 .item{
     padding: 10px;
-    min-width: 125px;
+    min-width: 170px;
 display: flex;
 align-items: center;
-/* gap: 20px; */
 border: 1px solid #19004d;
 border-radius: 8px;
 }
@@ -27,7 +26,19 @@ margin-right: 20px;
     color: #19004d;
 }
 
-/* th,
-td {
-    border: 1px solid black;
-} */
+
+
+.status {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.online {
+    background-color: #09ae0f;
+}
+
+.offline {
+background-color: #ae0909;
+}
